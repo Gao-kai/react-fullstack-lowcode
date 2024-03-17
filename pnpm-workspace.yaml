@@ -1,0 +1,3 @@
+packages:
+  # 所有packages目录下的直接目录和子目录都是工作区文件
+  - "packages/*"

@@ -1,0 +1,28 @@
+{
+  "name": "react-fullstack-lowcode",
+  "version": "1.0.0",
+  "description": "A Full Stack Low Code Project",
+  "main": "index.js",
+  "keywords": [
+    "react",
+    "next.js",
+    "nest.js",
+    "lowcode",
+    "fullstack"
+  ],
+  "author": "GaoKai",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.17.0",
+    "@types/node": "18",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "lodash": "^4.17.21",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "antd": "^5.15.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
