@@ -11,12 +11,15 @@
    nvm root
    npm config get userconfig
 
+3. package.json中的exports main module types files的区别
+
 ## TODO
 
 1. 购买云服务器 ESC 99 一年
 2. pnpm+workspace
 
 ## 今年的核心项目就三个
+
 1. React全栈大课
 2. github上开源项目 跟着左神学算法 + 古城算法
 3. 个人博客项目
