@@ -10,6 +10,18 @@
     "lowcode",
     "fullstack"
   ],
+  "scripts": {
+    "run:client": "pnpm --filter client run dev",
+    "run:server": "pnpm --filter server run start:dev",
+    "run:share": "pnpm --filter share run dev",
+    "run:release": "pnpm --filter release run dev",
+    "build:client": "pnpm --filter client run build",
+    "build:server": "pnpm --filter server run build",
+    "build:share": "pnpm --filter share run build",
+    "build:release": "pnpm --filter release run build",
+    "start:server": "pnpm --filter server run start:prod",
+    "start:release": "pnpm --filter release run start"
+  },
   "author": "GaoKai",
   "license": "ISC",
   "devDependencies": {
@@ -21,6 +33,7 @@
     "typescript": "^5.4.2"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.3.3",
     "antd": "^5.15.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
